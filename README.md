@@ -33,6 +33,20 @@ The frontend fetches and displays those articles.
 
 ## ⚙️ Backend Setup (Laravel)
 
+## Architecture / Data Flow Diagram 
+
+React Frontend (Netlify)
+        |
+        | REST API
+        v
+Laravel Backend (CRUD APIs)
+        |
+        v
+Database (Articles)
+
+## Live Demo     
+https://beyondchat-frontend-assignment.netlify.app/
+
 ### 1️⃣ Install dependencies
 ```bash
 cd backend-laravel
